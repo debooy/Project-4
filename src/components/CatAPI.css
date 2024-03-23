@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cat-info {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.blacklist {
+  flex: 0 0 200px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.blacklist ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
